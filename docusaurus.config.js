@@ -135,7 +135,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Aspire UI.`,
       },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.vsDark,
         darkTheme: prismThemes.vsDark,
       },
     }),
