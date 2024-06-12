@@ -1,0 +1,22 @@
+.accordion {
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+
+.accordionItem {
+  border-bottom: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+.accordionTitle {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+.accordionContent {
+  padding: 10px;
+}

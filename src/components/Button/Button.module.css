@@ -1,0 +1,27 @@
+/* Basic styles for the button */
+.customButton {
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover state */
+.customButton:hover {
+  background-color: #0056b3;
+}
+
+/* Active state */
+.customButton:active {
+  transform: scale(0.98);
+}
+
+/* Disabled state */
+.customButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
