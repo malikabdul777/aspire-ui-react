@@ -45,15 +45,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/malikabdul777/aspire-ui-react",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/malikabdul777/aspire-ui-react",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -93,7 +91,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/malikabdul777/aspire-ui-react",
             label: "GitHub",
             position: "right",
           },
@@ -115,16 +113,8 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://github.com/malikabdul777/aspire-ui-react",
               },
             ],
           },
@@ -137,12 +127,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/malikabdul777/aspire-ui-react",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Aspire UI. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aspire UI.`,
       },
       prism: {
         theme: prismThemes.github,
